@@ -1,0 +1,68 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        to bottom,
+        #050816,
+        #0b1026
+    );
+
+    color: white;
+}
+
+.main-container {
+
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+h1 {
+
+    font-size: 60px;
+
+    color: gold;
+}
+
+.buttons {
+
+    display: flex;
+
+    gap: 20px;
+}
+
+button {
+
+    padding: 15px 30px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: gold;
+
+    color: black;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+
+    transform: scale(1.05);
+}
