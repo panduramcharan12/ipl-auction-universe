@@ -1,0 +1,37 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background: #081120;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+.room-container {
+
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.room-box {
+
+    background: rgba(255,255,255,0.08);
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    margin-top: 20px;
+
+    text-align: center;
+}
